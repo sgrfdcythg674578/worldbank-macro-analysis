@@ -10,7 +10,7 @@ import os
 import time
 
 BASE = os.path.dirname(os.path.abspath(__file__))
-SCRIPTS = ["01_check_data.py", "02_merge_clean.py", "03_eda.py", "04_models.py"]
+SCRIPTS = ["01_check_data.py", "02_merge_clean.py", "03_eda.py", "04_models.py", "06_extra_charts.py"]
 
 
 def main():
