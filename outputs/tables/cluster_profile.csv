@@ -1,0 +1,4 @@
+﻿cluster_name,GDP_per_capita,GDP_growth,Inflation,Unemployment,Population,Exports_pct_GDP
+集群1,63118.6,2.1,2.2,5.0,17527692.2,75.7
+集群2,8368.4,4.0,5.0,7.3,36559167.7,35.0
+集群3,8282.2,6.3,1.2,4.4,1435225262.5,21.7

@@ -1,0 +1,7 @@
+﻿,GDP_per_capita,GDP_growth,Inflation,Unemployment,Population,Exports_pct_GDP
+GDP_per_capita,1.0,-0.062,-0.126,-0.143,-0.068,0.446
+GDP_growth,-0.062,1.0,-0.078,-0.113,0.069,0.038
+Inflation,-0.126,-0.078,1.0,0.017,0.004,-0.111
+Unemployment,-0.143,-0.113,0.017,1.0,-0.079,-0.025
+Population,-0.068,0.069,0.004,-0.079,1.0,-0.136
+Exports_pct_GDP,0.446,0.038,-0.111,-0.025,-0.136,1.0
