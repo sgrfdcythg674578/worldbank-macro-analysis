@@ -8,7 +8,7 @@
 - **数据源**：世界银行 WDI 官方开放数据（data.worldbank.org，官方 CSV 下载，非爬虫）
 - **样本**：218 个真实国家 × 6 项宏观指标 × 2005-2025 年（2025 年为世界银行最新年度数据，2026-10-08 更新）
 - **模型**：同比分析 / 结构占比 / 帕累托-ABC / 波士顿矩阵 / K-Means 聚类 / SARIMA 时间序列预测
-- **可视化**：15 张业务图表（统一莫兰迪配色）+ Streamlit 交互大屏截图（11 个组件，含世界地图 choropleth、国家下钻、暗色主题、KPI 同比箭头）
+- **可视化**：15 张业务图表（统一莫兰迪配色）+ 可交互大屏（`dashboard.html` 双击即开，11 个组件，含世界地图 choropleth、筛选联动、KPI 同比箭头）
 
 ## 目录结构
 
@@ -21,9 +21,11 @@
 │   ├── 02_merge_clean.py     # 宽表转长表 + 多指标合并清洗
 │   ├── 03_eda.py             # 探索性分析（fig01~fig05）
 │   ├── 04_models.py          # 6 种商业模型（fig06~fig11 + 表格）
-│   ├── 05_dashboard.py       # Streamlit 交互大屏
+│   ├── 05_dashboard.py       # Streamlit 交互大屏（需Python环境）
 │   ├── 06_extra_charts.py    # 补充宏观趋势图（fig12-fig15）
+│   ├── 07_build_html_dashboard.py  # 生成独立可交互大屏 dashboard.html
 │   └── morandi.py            # 莫兰迪统一配色模块
+├── dashboard.html          # ⭐独立交互大屏：双击浏览器打开，无需装环境（数据已内嵌）
 ├── outputs/
 │   ├── figures/      # 16 张图表（150dpi，fig01-fig16）
 │   └── tables/       # 模型结果表（同比/区域份额/ABC/聚类/SARIMA 等）
